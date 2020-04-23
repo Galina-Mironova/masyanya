@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji</title>
+    <style>
+        body{
+            background-color: dimgray;
+        }
+        #face{
+            background-image: linear-gradient(#f2d8bb,#ebb3a2,#f2d8bb);
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 100px/50px;
+            margin: 100px;
+        }
+        .eyes{
+            background-color: white;
+            border: 2px solid black;
+            color: blue;
+            width: 30px;
+            height: 40px;
+            border-radius: 100px;
+            font-size: 40px;
+            margin-top: -15px;        
+}
+        .eyleft{
+            float: left;
+            margin-left: 60px;
+            padding-top: 10px;
+            transform: rotate(-10deg);
+            text-align: right;
+        }
+        .eyright{
+            float: right;
+            margin-right: 60px;
+            padding-top: 10px;
+            transform: rotate(10deg);
+            text-align: left;
+        }
+        .ear{
+            background-color: #f2d8bb;
+            width: 10px;
+            height: 10px;
+            border-radius: 100px;
+            margin-top: -15px;
+        }
+        .ealeft{
+            float: left;
+            margin-right: 20px;
+            border-left: 3px solid black;
+             
+        }
+        .earight{
+            float: right;
+            border-right: 3px solid black;
+        }
+        .mouth{
+            margin-left: 25px;
+        }
+        .braid_L{
+            float: left;
+            margin-top: -125px;
+            transform: rotate(-30deg);
+            }
+        .braid_R{
+            float: right;
+            margin-top: -125px;
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="face">
+    <div class="eyes eyleft">&bull;</div>
+    <div class="eyes eyright">&bull;</div>
+    <div class="ear ealeft"></div>
+    <div class="ear earight"></div>
+    <div class="mouth"><img src="images/mouth.png" alt="mouth"></div>
+    <div class="braid_L"><img src="images/braid_L.png" alt=""></div>
+    <div class="braid_R"><img src="images/braid_R.png" alt=""></div>
+</div> 
+</body>
+</html>
